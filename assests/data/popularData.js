@@ -1,0 +1,43 @@
+const popularData=[
+    {
+        id:'1',
+        image:require('../images/pizza1.png'),
+        title:'primavera Pizza',
+        weight:'540 gr',
+        rating:'5.0',
+        price:3.99,
+        sizeName:'Medium',
+        sizeNumber:14,
+        crust:'Thin Crust',
+        deliveryTime:30,
+    },
+    {
+        id:'2',
+        image:require('../images/pizza2.png'),
+        weight:'450 gr',
+        rating:'4.0' , 
+        title:'Vegetarian Pizza',
+        weight:'450 gr',
+        rating:'4.0',
+        price:5.99,
+        sizeName:'small',
+        sizeNumber:10,
+        crust:'Thin Crust',
+        deliveryTime:40,
+    },
+    {
+        id:'3',
+        image:require('../images/pizza3.png'),
+        weight:'700 gr',
+        rating:'5.0' , 
+        title:'Pepperoni Pizza',
+        weight:'700 gr',
+        rating:'5.0',
+        price:9.99,
+        sizeName:'Large',
+        sizeNumber:18,
+        crust:'Thin Crust',
+        deliveryTime:20,
+    }
+];
+export default popularData;
